@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Data Page</title>
+    <!-- <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        button {
+            margin: 10px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style> -->
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+<div class="container">
+<h1>Chart Data Table</h1>
+
+<table id="dataTable">
+    <thead>
+        <tr>
+            <th>Label</th>
+            <th>Value</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+<div class="butnContainer">
+<button id="saveButton" class="addBtn">Save Data</button>
+<button id="viewButton" class="viewButton">View Chart</button>
+</div>
+</div>
+<!-- <div id="duplicateMessage"></div> -->
+<script src="table.js">
+
+</script>
+</body>
+</html>
